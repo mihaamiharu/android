@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:layout_margin="10dp"
+    tools:context=".InsertActivity">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="ID Berita"
+        />
+
+    <EditText
+        android:id="@+id/inpIdBerita"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+       
+        android:ems="10"
+        android:inputType="number"
+
+        android:hint="Masukan ID Berita" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Judul Berita" />
+
+    <EditText
+        android:id="@+id/inpJudulBerita"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:hint="Masukan Judul Berita" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Isi Berita" />
+
+    <EditText
+        android:id="@+id/inpIsiBerita"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="textMultiLine"
+        android:hint="Masukan Isi Berita"
+        android:singleLine="true"/>
+
+    <Button
+        android:id="@+id/btn_SimpanData"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:onClick="simpanBerita"
+        android:text="Simpan" />
+</LinearLayout>

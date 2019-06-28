@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <TextView
+        android:id="@+id/listJudulBerita"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="20sp"
+        android:text="Judul Berita" />
+
+    <TextView
+        android:id="@+id/listWaktuPosted"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="15sp"
+        android:text="waktu Posted" />
+
+    <TextView
+        android:id="@+id/listIsiBerita"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Isi Berita" />
+</LinearLayout>
